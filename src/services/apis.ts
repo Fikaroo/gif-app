@@ -1,8 +1,10 @@
 import axios from "axios";
 import { Main } from "../types";
 
+const rapidApiKey = import.meta.env.VITE_RAPID_API_KEY;
+
 const headersList = {
-  "X-RapidAPI-Key": "92aebb0be2mshc788f57343e36eap1147e3jsn1c26b6385166",
+  "X-RapidAPI-Key": rapidApiKey,
   "X-RapidAPI-Host": "giphy.p.rapidapi.com",
 };
 
