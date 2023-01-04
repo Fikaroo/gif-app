@@ -24,7 +24,7 @@ export const Apis = {
 
   getDataStickers: async (): Promise<Main> => {
     const { data } = await instance.get("/stickers/trending", {
-      params: { s: "hungry" },
+      params: { s: "l love you" },
     });
     return data;
   },
